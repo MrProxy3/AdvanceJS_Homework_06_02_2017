@@ -1,0 +1,15 @@
+{
+  "name": "brainacademy.psd2html.flat-mate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tackle-team",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-validation": "^1.16.0"
+  }
+}

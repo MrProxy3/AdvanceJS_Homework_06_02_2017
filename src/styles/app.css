@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+.form {
+  position: relative; }
+  .form .partOfForm {
+    width: 20%;
+    min-width: 320px;
+    transition: .5s;
+    background: #fafafa;
+    border-radius: 5px;
+    border: 0 solid #000;
+    box-shadow: 2px 2px 5px #ddd;
+    position: absolute; }
+    .form .partOfForm .headers {
+      text-align: center;
+      margin: 0;
+      padding: 0; }
+      .form .partOfForm .headers .headerSize2 {
+        font: normal 24px sans-serif;
+        text-transform: uppercase;
+        margin: 10px; }
+      .form .partOfForm .headers .headerSize4 {
+        font: normal 13px sans-serif;
+        text-transform: uppercase;
+        margin: 5px; }
+    .form .partOfForm .labels {
+      display: block;
+      margin-top: 10px;
+      height: 25px;
+      font: normal 12px sans-serif; }
+    .form .partOfForm .inputs {
+      display: block;
+      width: 290px;
+      height: 40px;
+      border: 0 solid rgba(59, 52, 255, 0.4);
+      border-bottom: 1px solid rgba(59, 52, 255, 0.4);
+      background: #fafafa;
+      font: normal 20px sans-serif;
+      padding: 0 10px; }
+      .form .partOfForm .inputs:focus {
+        outline: -webkit-focus-ring-color auto 0;
+        border-bottom: 2px solid rgba(59, 52, 255, 0.5); }
+    .form .partOfForm .btn {
+      margin-top: 15px;
+      border-radius: 4px;
+      border: 0 solid #000;
+      width: 100px;
+      height: 35px;
+      color: #fff;
+      background: rgba(23, 202, 0, 0.7);
+      font: normal 17px sans-serif; }
+      .form .partOfForm .btn:hover {
+        background: rgba(23, 202, 0, 0.9); }
+      .form .partOfForm .btn:active {
+        background: rgba(23, 202, 0, 0.5); }
+
+label.error {
+  color: #ff4036;
+  font-size: 13px;
+  display: block;
+  margin-top: 10px; }
+
+/*# sourceMappingURL=app.css.map */
